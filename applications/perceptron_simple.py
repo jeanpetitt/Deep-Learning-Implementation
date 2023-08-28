@@ -105,7 +105,7 @@ W
 def predict(X, W, b):
   # computer the output of the model (activation)
   A = model(X, W, b)
-  print(A)
+  # print(A)
   return A >= 0.5
 
 from sklearn.metrics import accuracy_score
