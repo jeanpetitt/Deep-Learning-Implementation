@@ -12,3 +12,7 @@ def load_data():
     y_test = np.array(test_dataset["Y_test"][:]) # test set labels
     
     return X_train, y_train, X_test, y_test
+
+# x_train, y_train, x_test, y_test = load_data()
+
+# print(x_train)
